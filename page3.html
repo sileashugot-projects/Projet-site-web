@@ -1,0 +1,132 @@
+<html>
+ <head>
+  <title>Le fonctionnement de Bitcoin</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div id="container">
+      <nav id="nav">
+        <div id="logo">
+          <p id="navbar">
+          Cryptomonnaie
+          </p>
+        </div>
+        <ul class="list" id="navbar">
+          <li class="dropdown"><a href="index.html" class="txt">Acceuil</a></li>
+          <li class="dropdown"><p class="txt">Types &nbsp;<i class="fa fa-caret-down"></i></p>
+            <div class="dd">
+            <ul class="sub">
+              <li class="sublink"><a href="page3.html">Bitcoin</a></li>
+              <li class="sublink"><a href="page4.html">Ethereum</a></li>
+            </ul>
+            </div>
+          </li>
+          <li class="dropdown"><p class="txt">Autres &nbsp;<i class="fa fa-caret-down"></i></p>
+           <div class="dd">
+            <ul class="sub">
+              <li class="sublink"><a href="page5.html">Convertisseur</a></li>
+              <li class="sublink"><a href="page1.html">Legal</a></li>
+            </ul>
+            </div>
+        </ul>
+      </nav>
+    </div>
+  </head>
+  <footer class="footer">
+      <div class="txt">
+        Projet NSI 2022: Page Web
+      </div>
+      <div class="sources">Sources:
+        <a href="https://www.youtube.com/watch?v=bBC-nXj3Ng4" class="txt">Fonctionnement du Bitcoin</a>
+      </div>
+  </footer>
+    <div id="sidebar_left"></div>
+    <div id="sidebar_right"></div>
+<body>
+ <section>
+  <div class="content_bitcoin">
+   <h1 class="txttitle_bitcoin">Le Bitcoin:</h1> <div>la partie moins connus du Bitcoin, le fonctionnement</div>
+  </div>
+  <div id="page5">
+   <p>
+     <br>
+     <h1 id="logo_ethereum">Ici vous avez une photo du logo de Bitcoin:</h1>
+     <img src="bitcoin.png" alt="Photo de Bitcoin" id="bitcoin">
+     <h1 id="cours_action_ethereum">Ici une photo du cours d'action du Bitcoin le 14/1/2022:<br/>
+     <img src="l'action Bitcoin.JPG" alt="cours d'action du bitcoin" id="cours_action_ethereum_image" class="fix"> 
+     </h1>
+   </p>
+  </div>
+ </section>
+ <section>
+   <div id="page5">
+     <p>
+      Le Bitcoin est une cryptomonnaie décentralisé sans banque centrale ou administrateur. Cette monnaie peut être envoyé entre utilisateur grâce au système pair-a-pair du network de bitcoin sans passer a des systèmes intermédiaires. Les transactions sont vérifiées par des nœuds de réseaux avec la cryptographie, ces transactions sont aussi mises dans un registre partage publique appelle une blockchain. Les Bitcoins sont créés avec le processus de « mining ». Cette cryptomonnaie a été inventé en 2008 par un ou des individues anonymes avec l’alias de Satoshi Nakamoto; la monnaie a commencé à être utilisée en 2009 lors de la publication du logiciel open source. Le Bitcoin peut être échangé pour d’autre monnaie, produits ou services. Le Bitcoin est infame pour son utilisation dans les marches noirs et le cout d’électricité et donc d’empreinte carbone lors du mining. En general le Bitcoin en tant que monnaie est connus mais moins de personnse sachent comment le systeme fonctionne.
+     </p>
+     <nav>
+       <div class="sommairebit">
+         <h2 class="txttitre">Sommaire</h2>
+        <ul class="element">
+          <li><a href="#blockchain">Blockchain</a></li>
+          <li><a href="#mining">Mining</a></li>
+        </ul>
+       </div>
+     </nav>
+   </div>
+ </section>
+ <section id="blockchain"><div id="page5">
+   <h2 class="txttitre">La Blockchain</h2>
+   <p class="paragraphe">
+    La blockchain de bitcoin est comme un registre public qui enregistre les transactions de bitcoin. Il est implémenté avec une chaine de « blocs ». Un réseau de nœud de communication maintient la blockchain. 
+    <section class="paragraphe">
+    <br><h4 class="texttitre soustitre">Les Transactions</h4>
+    <br>Les transactions sont de forme : <br> 
+    <br><img src="Ledger1.JPG" alt="photo format de transaction" class="ledger"><br>
+    <br><h4 class="txttitre soustitre">Les Signatures Numeriques</h4>
+    <br>Chaque transaction contient une signature numérique pour prouver les transactions, ceci marche car chaque personne a une paire d’une clé publique et d’une clé privée :<br>
+    <br><img src="Ledger2.JPG" alt="cle privee et public" class="ledger"><br>
+    <br>Avec ces clés et le contenu du message on crée une signature de 256bits en binaire, même si on change seulement le contenu la signature diffère.<br>
+    <br><img src="Ledger3.JPG" alt="signature numerique" class="ledger"><br>
+    <br>La signature se crée donc à partir de la clé privée et le contenu du message. Cette fonction est de sorte :<br>
+    <br><img src="Function.JPG" alt="fonction Sign" class="fonctionblocs"><br>
+    <br>Il existe aussi une fonction qui permet de vérifier si la signature est réelle, c’est ici ou la clé publique est utilisée. Cette fonction retourne Vrai ou Faux qui indique si la signature a été produit à partir de la clé privée associe à la clé publique. Cette fonction est de sorte :<br>
+    <br><img src="Function2.JPG" alt="fonction Verify" class="fonctionblocs"><br>
+    <br>Pour éviter que le même message avec la même signature soit utilisé, chaque transaction a une identité unique (comme l’ordre).<br>
+    <br><img src="Ledger4.JPG" alt="transaction avec identite unique" class="ledger"><br>
+    <br><h4 class="texttitre soustitre">La Decentralisation</h4>
+    <br>Le registre est décentralisé, cela veut dire que chaque personne a un registre individuellement.<br>
+    <br><img src="Ledger5.JPG" alt="registre individuel" class="ledger"><br>
+    <br>et donc a chaque transaction la personne diffuse la transaction pour que tous le monde l'ai<br>
+    <br><img src="Ledger6.JPG" alt="diffusion transaction" class="ledger"><br>
+    <br><h4 class="texttitre soustitre">Les Fonctions de Hachages Cryptographiques</h4>
+    <br>La decentralisation ne marche qu’à cause du protocole de Bitcoin qui permet d’assurer que chaque individu est le même contenu dans le registre. Bitcoin regarde quel registre a le plus de travail de calcul en utilisant les fonctions de hachage cryptographique, l’idée générale est que si on utilise comme base le travail de calcul pour savoir ce qu’on a confiance en, c’est possible de faire en sorte que les transactions frauduleuses et les registres contradictoires demanderai un travail de calcul irréalisable.Une fonction de hachage cryptographique marche comme ceci :<br>
+    <br><img src="Function3.JPG" alt="fonction SHA256" class="fonctionblocs"><br>
+    <br>Cette suite de bits peut sembler aléatoire mais ça retourne toujours le même résultat avec la même entrée, cependant si on change même juste un symbole de l’entrée le résultat change complètement. La fonction que Bitcoin utilise est SHA256, elle est utilisée car on ne peut pas savoir l’entrée juste avec le résultat. Donc pour trouver l’entrée d’un résultat donnée par SHA256, il n’existe aucune meilleure méthode que d’essayer des entrées jusqu’à ce que l’on trouve le résultat.<br>
+    <br><h4 class="txttitre soustitre">La Preuve de Travail</h4>
+    <br>En utilisant SHA256 on peut créer des preuves de travails. Ceci marche lorsqu’on trouve un nombre qui lorsqu’on met tout le contenu du registre et on ajoute ce nombre a la fin dans SHA256, le résultat donne une suite de bits dont par exemple les 30 premiers bits contiennent seulement des 0 (la probabilité de ceci est d’approximativement 1 sur 1 milliards de milliards). Comme précédemment dit pour trouver l’entrée en SHA256 qui donne une suite de bits dont les 30 premiers bits sont des 0, la seule méthode est d’essayer des entrées jusqu’à ce que le résultat convient. Ce nombre trouvé devient alors la preuve de travail, comme la preuve de travail est associée avec le contenu du registre, si un élément du contenu du registre change, le Hash changerai complétement.<br>
+    <br><img src="Ledger7.JPG" alt="preuve de travail" class="ledger"><br>
+    <br><h4 class="texttitre soustitre">Les Blocs et les Chaines de Blocs</h4>
+    <br>Lorsqu’on revient sur la situation ou tous les individus ont un registre, pour trouver un moyen pour que tous le monde est le même registre, comme dit précédemment le moyen est d’utiliser le registre avec le plus de travail de calcul. Pour savoir lequel a le plus de travail de calcul, on organise ces registres en <br>« blocs » ou chaque bloc contient la liste des transactions accompagné d’une preuve de travail. (Une transaction est vérifiée par sa signature un bloc est vérifié par sa preuve de travail.).<br>
+    <br><img src="Ledger8.JPG" alt="bloc" class="ledger"><br>
+    <br>Puis pour organiser ces blocs à un ordre, on inclut le Hash du bloc précèdent au début de chaque bloc, ceci permet que les blocs ne puissent pas être change sans casser toutes cette « chaine ». Ceci est appelée le « blockchain »<br>
+    <br><img src="Ledger9.JPG" alt="blocchain" class="ledger"><br>
+    </section>
+   </p>
+  </div></section>
+  <section id="mining"><div id="page5">
+    <h2 class="txttitre">Le Mining</h2>
+    <p class="paragraphe">
+      Dans sa forme la plus abstraite, le fait de miner une cryptomonnaie consiste à fournir un service au réseau de la dite monnaie en échange d'une récompense pécuniaire
+      <section class="paragraphe">
+      <br><h4 class="txttitre soustitre">La creation des blocs</h4>
+      <br>Pour creer un bloc, les createurs de blocs vont enregistrer les transactions diffusées puis les mettres dans un bloc puis chercher une preuve de travail, apres avoir trouvée la preuve de travail, le bloc et diffusé.<br>
+      <br><img src="Ledger10.gif" class="ledger"><br>
+      <br><h4 class="txttitre soustitre">La Recompense par Bloc</h4>
+      <br>Pour récompenser le créateur de bloc lorsqu'il crée un bloc, on met une transaction au début du bloc ou le créateur reçoit un montant en bitcoin. Ceci est appelée la récompense par bloc, cette transaction est spéciale : elle ne provient de personne, ce qui veut dire qu’elle n’a pas de signature numérique et on ajoute de la monnaie dans l’économie a chaque bloc. Ce processus est appelé le mining.<br>
+      <br><img src="Ledger11.JPG" class="ledger"><br>
+      </section>
+  </div></section>
+  <br>
+</body>
+</html>
